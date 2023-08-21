@@ -1,0 +1,1 @@
+{"version":3,"file":"bundle.js","mappings":";;;;;AAEA,IAAMA,OAAe,GAAG,cAAc;AACtCC,OAAO,CAACC,GAAG,CAAC,SAAS,EAAEF,OAAO,CAAC,C","sources":["webpack://08_Typescript知识拓展-webpack环境/./src/index.ts"],"sourcesContent":["\n\nconst message: string = 'Hello world.'\nconsole.log('message', message)"],"names":["message","console","log"],"sourceRoot":""}
