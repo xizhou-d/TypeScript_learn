@@ -36,7 +36,7 @@ const store: IStore  = {
     }
 }
 
-const store1: IStore & ThisType<IState>  = {
+const store1: IStore & ThisType<IState> = {
     state: {
         name: 'xizhou',
         age: 20
@@ -50,5 +50,8 @@ const store1: IStore & ThisType<IState>  = {
     }
 }
 
+if (store1.eating) {
+    store1.eating()
+}
 
 export {}

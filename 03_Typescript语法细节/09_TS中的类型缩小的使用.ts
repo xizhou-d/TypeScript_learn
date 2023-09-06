@@ -33,7 +33,6 @@ function printDate(date: string | Date) {
     // } else {
     //     console.log(date.getTime())
     // }
-
     if (date instanceof Date) {
         console.log(date.getTime())
     }

@@ -40,5 +40,4 @@ delayFn((name, age) => {
     console.log(name, age)
 })
 
-
 export {}
