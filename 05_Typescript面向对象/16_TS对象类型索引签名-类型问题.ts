@@ -1,6 +1,6 @@
 interface IIndexType {
     // yyy: 返回值类型的目的是告知通过索引去获取到的值是什么类型
-    // index: 索引的类型只能是 number 或者是 string 类型其中一个
+    // index: 索引的类型只能是 number 或者是 string 类型其中一个，不能写成 [index: string | number]: string，索引只能是 number 和 string 中的其中一种类型不能是联合类型
     // [index: number]: string
     // [index: string]: any
     [index: string]: string
@@ -22,5 +22,5 @@ const names1: IIndexType = ['abc', 'cba', 'nba']
 // names有的属性返回的是 函数类型，并不是 string 类型，所以报错了
 const names2: IIndexType = ['abc', 'cba', 'nba']
 
-
+console.log(names, names1, names2)
 export {}

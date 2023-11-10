@@ -29,6 +29,7 @@ const name = info['name']
 
 
 
+
 // 2. 索引签名的案例
 interface ICollection {
     [index: number]: string

@@ -1,7 +1,7 @@
 // Typescript 提供了映射类型：可以看作是一个函数，将其他接口的类型复制过来
 // 映射类型不能使用 interface 来定义
 // Type: IPerson
-// keyof = "name"|"age"
+// keyof = "name"|"age" (keyof Type 返回的是 联合类型，然后 in 可以依次作用于 这个联合类型)
 type MapPerson<Type> = {
     // [index: number]: string
     // 索引类型一次进行使用

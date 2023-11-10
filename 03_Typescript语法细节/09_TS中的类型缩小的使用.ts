@@ -9,7 +9,7 @@ function printID(id: number | string) {
 
 
 
-// 平等缩小：一般涌来判断字面量类型  ===  !==
+// 平等缩小：一般用来判断字面量类型  ===  !==
 type Direction = 'top' | 'bottom' | 'right' | 'left'
 function switchDirection(direction: Direction) {
     if (direction === 'top') {
@@ -37,9 +37,6 @@ function printDate(date: string | Date) {
         console.log(date.getTime())
     }
 }
-
-
-
 
 // in 操作符
 interface ISwim {

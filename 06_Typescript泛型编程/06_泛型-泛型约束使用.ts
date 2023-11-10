@@ -7,9 +7,9 @@ function getLength(arg: ILength) {
 
 }
 
-getLength('aaaa')
-getLength(['aaa', 'bbb', 'ccc'])
-getLength({ length: 100 })
+const info01 = getLength('aaaa')
+const info02 = getLength(['aaa', 'bbb', 'ccc'])
+const info03 = getLength({ length: 100 })
 
 
 

@@ -50,6 +50,10 @@ const store1: IStore & ThisType<IState> = {
     }
 }
 
+if (store.eating) {
+    store.eating()
+}
+
 if (store1.eating) {
     store1.eating()
 }

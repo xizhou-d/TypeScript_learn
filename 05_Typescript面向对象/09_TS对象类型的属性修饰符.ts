@@ -3,16 +3,16 @@ type IPerson = {
     // 可选属性
     name?: string
     // readonly： 只读属性
-    age: number
+    readonly age: number
 }
 
 interface IKun {
     name: string
-    slogen: string
+    readonly slogen: string
 }
 
-const p: Person = {
-    // name: 'xizhou',
+const p: IPerson = {
+    name: 'xizhou',
     age: 19
 }
 

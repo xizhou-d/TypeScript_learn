@@ -10,7 +10,8 @@ type CalcReturnType = ReturnType<CalcFnType>
 type FooReturnType = ReturnType<typeof foo>
 
 
-
+// ◼ 在条件类型中推断（Inferring Within Conditional Types）
+//  条件类型提供了 infer 关键词，可以从正在比较的类型中推断类型，然后在 true 分支里引用该推断结果；
 
 
 // 总结类型体操题目： MyReturnType
